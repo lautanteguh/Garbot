@@ -1,0 +1,6 @@
+train: D:\yolo\400\train
+val: D:\yolo\400\val
+
+nc: 3
+
+names: ["Inorganic", "Metals","Organic"]
