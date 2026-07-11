@@ -106,6 +106,14 @@ The dataset is not included because of its size.
 - Mobile support
 
 ---
+## Acknowledgements
+
+- This project was developed as part of my school's final project.
+
+- Special thanks to my teammates for assisting with image collection and dataset preparation.
+
+- Built using Ultralytics YOLO.
+---
 
 ## License
 
