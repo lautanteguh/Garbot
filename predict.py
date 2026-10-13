@@ -48,15 +48,6 @@ while True:
 
             print("Detected:", label)
 
-            if label in VALID_LABELS:
-                now = time.time()
-
-                if label != last_sent or (now - last_time > cooldown):
-                    send_command(label)
-                    last_sent = label
-                    last_time = now
-
-                break
 
     cv2.imshow("YOLO Live", annotated_frame)
 
